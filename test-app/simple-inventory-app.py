@@ -1,6 +1,10 @@
-import pyqt5
+import sys
+import PyQt5
 import flask
 import cx_Oracle
+# from PyQt5.QtCore import *
+# from PyQt5.QtGui import *
+# from PyQt5.QtWidgets import *
 
 # PyQt5 UI
 class CreateUserWindow(pyqt5.QtWidgets.QMainWindow):
